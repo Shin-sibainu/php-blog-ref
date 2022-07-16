@@ -1,0 +1,96 @@
+body {
+  background-color: #dcc0a6;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+}
+
+.threadWrapper {
+  /* background-color: #b3eeb3; */
+  background-color: #f3eded;
+  padding: 10px;
+  max-width: 1800px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.childWrapper {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.threadTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-left: 6px;
+  height: 60px;
+}
+
+.threadTitle h1 {
+  color: red;
+  margin-left: 3px;
+  font-size: 27px;
+}
+
+section {
+  padding: 0px 10px;
+}
+
+section .username {
+  color: green !important;
+  font-weight: 700;
+}
+
+section .nameArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: -14px;
+}
+
+section .comment {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.success_message {
+  color: green;
+}
+
+.errorComment {
+  color: red;
+}
+
+.formWrapper {
+  padding: 16px;
+  margin-left: 20px;
+}
+
+.commentTextArea {
+  margin-top: 10px;
+  width: 500px;
+  height: 90px;
+}
+
+/* 新規スレッド */
+.newThreadWrapper {
+  background-color: #b3eeb3;
+  padding: 10px;
+  max-width: 1800px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.newChildThreadWrapper {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.newChildThreadWrapper input {
+  width: 150px;
+}
